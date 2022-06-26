@@ -10,6 +10,7 @@ Library    RPA.HTTP
 Library    RPA.Tables
 Library    RPA.PDF
 Library    RPA.Archive
+Library    RPA.Dialogs
 
 *** Variables ***
 ${GLOBAL_RETRY_AMOUNT}=         10x
@@ -21,7 +22,10 @@ Open the robot order website
 
 
 Get orders
-    Download    https://robotsparebinindustries.com/orders.csv    overwrite=true
+    Add heading    Send URL orders
+    Add text input    url    label=URL CSV
+    ${result}=    Run dialog
+    Download    ${result.url}    overwrite=true
     ${orders}=    Read table from CSV    orders.csv
     [Return]    ${orders}
 
@@ -83,6 +87,8 @@ Go to order another robot
 
 Create a ZIP file of the receipts
     Archive Folder With Zip    ${OUTPUT_DIR}${/}data    ${OUTPUT_DIR}${/}data.zip
+
+ 
 
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc

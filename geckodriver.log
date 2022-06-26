@@ -779,3 +779,65 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+1656206689648	Marionette	INFO	Stopped listening on port 63668
+1656209040119	geckodriver	INFO	Listening on 127.0.0.1:55687
+1656209043142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc9be\\rust_mozprofile1ajnLp"
+1656209043471	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc9be\\rust_mozprofile1ajnLp\\search.json.mozlz4", (void 0)))
+1656209045371	Marionette	INFO	Listening on port 55696
+1656209045814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656209114660	Marionette	INFO	Stopped listening on port 55696
+1656209123955	geckodriver	INFO	Listening on 127.0.0.1:55794
+1656209126999	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc3f6\\rust_mozprofilezVBbBh"
+1656209127341	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc3f6\\rust_mozprofilezVBbBh\\search.json.mozlz4", (void 0)))
+1656209129429	Marionette	INFO	Listening on port 55802
+1656209129653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 3744, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1656209153865	Marionette	INFO	Stopped listening on port 55802
+1656209165920	geckodriver	INFO	Listening on 127.0.0.1:55898
+1656209168951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc65e\\rust_mozprofileegdMGp"
+1656209169277	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc65e\\rust_mozprofileegdMGp\\search.json.mozlz4", (void 0)))
+1656209171375	Marionette	INFO	Listening on port 55906
+1656209171606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656209334220	Marionette	INFO	Stopped listening on port 55906
+1656246999439	geckodriver	INFO	Listening on 127.0.0.1:56006
+1656247002452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd2c2\\rust_mozprofiledyev2I"
+1656247002908	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcd2c2\\rust_mozprofiledyev2I\\search.json.mozlz4", (void 0)))
+1656247005261	Marionette	INFO	Listening on port 56014
+1656247005608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656247420799	Marionette	INFO	Stopped listening on port 56014
+1656247438403	geckodriver	INFO	Listening on 127.0.0.1:56265
+1656247441445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcff62\\rust_mozprofileJLjn6H"
+1656247441759	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcff62\\rust_mozprofileJLjn6H\\search.json.mozlz4", (void 0)))
+1656247444034	Marionette	INFO	Listening on port 56274
+1656247444152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
