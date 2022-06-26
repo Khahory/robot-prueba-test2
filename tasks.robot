@@ -53,11 +53,29 @@ Store the receipt as a PDF file
     Wait Until Element Is Visible    id:receipt
     ${receipt_result_html}=        Get Element Attribute    id:receipt    outerHTML
     Html To Pdf    ${receipt_result_html}    ${OUTPUT_DIR}${/}${Order number}-receipt.pdf
-    [Return]    ${OUTPUT_DIR}${/}${Order number}-receipt.pdf
+    ${pdf_file}    Set Variable    ${OUTPUT_DIR}${/}${Order number}-receipt.pdf
+    [Return]    ${pdf_file}
         
 
 Retry submitting order
     Wait Until Keyword Succeeds   5x    1s    Submit the order
+
+
+Take a screenshot of the robot
+    [Arguments]    ${Order number}
+    Screenshot    id:robot-preview-image    ${OUTPUT_DIR}${/}${Order number}-robot.png
+    ${screenshot}    Set Variable    ${OUTPUT_DIR}${/}${Order number}-robot.png
+    [Return]    ${screenshot}
+
+
+Embed the robot screenshot to the receipt PDF file
+    [Arguments]    ${screenshot}    ${pdf}
+    Open Pdf    ${pdf}
+    ${receipt_list}=    Create List    ${pdf}    ${screenshot}
+    Add Files To Pdf    ${receipt_list}    ${pdf}
+    Close Pdf    ${pdf}
+
+
 
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc
@@ -69,8 +87,8 @@ Order robots from RobotSpareBin Industries Inc
         Preview the robot
         Retry submitting order
         ${pdf}=    Store the receipt as a PDF file    ${row}[Order number]
-    #     ${screenshot}=    Take a screenshot of the robot    ${row}[Order number]
-    #     Embed the robot screenshot to the receipt PDF file    ${screenshot}    ${pdf}
+        ${screenshot}=    Take a screenshot of the robot    ${row}[Order number]
+        Embed the robot screenshot to the receipt PDF file    ${screenshot}    ${pdf}
     #     Go to order another robot
     END
     # Create a ZIP file of the receipts
