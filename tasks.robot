@@ -9,6 +9,7 @@ Library    RPA.Browser.Selenium
 Library    RPA.HTTP
 Library    RPA.Tables
 Library    RPA.PDF
+Library    RPA.Archive
 
 *** Variables ***
 ${GLOBAL_RETRY_AMOUNT}=         10x
@@ -20,7 +21,7 @@ Open the robot order website
 
 
 Get orders
-    # Download    https://robotsparebinindustries.com/orders.csv    overwrite=true
+    Download    https://robotsparebinindustries.com/orders.csv    overwrite=true
     ${orders}=    Read table from CSV    orders.csv
     [Return]    ${orders}
 
@@ -52,8 +53,8 @@ Store the receipt as a PDF file
     [Arguments]    ${Order number}
     Wait Until Element Is Visible    id:receipt
     ${receipt_result_html}=        Get Element Attribute    id:receipt    outerHTML
-    Html To Pdf    ${receipt_result_html}    ${OUTPUT_DIR}${/}${Order number}-receipt.pdf
-    ${pdf_file}    Set Variable    ${OUTPUT_DIR}${/}${Order number}-receipt.pdf
+    Html To Pdf    ${receipt_result_html}    ${OUTPUT_DIR}${/}data${/}${Order number}-receipt.pdf
+    ${pdf_file}    Set Variable    ${OUTPUT_DIR}${/}data${/}${Order number}-receipt.pdf
     [Return]    ${pdf_file}
         
 
@@ -63,8 +64,8 @@ Retry submitting order
 
 Take a screenshot of the robot
     [Arguments]    ${Order number}
-    Screenshot    id:robot-preview-image    ${OUTPUT_DIR}${/}${Order number}-robot.png
-    ${screenshot}    Set Variable    ${OUTPUT_DIR}${/}${Order number}-robot.png
+    Screenshot    id:robot-preview-image    ${OUTPUT_DIR}${/}data${/}${Order number}-robot.png
+    ${screenshot}    Set Variable    ${OUTPUT_DIR}${/}data${/}${Order number}-robot.png
     [Return]    ${screenshot}
 
 
@@ -73,9 +74,15 @@ Embed the robot screenshot to the receipt PDF file
     Open Pdf    ${pdf}
     ${receipt_list}=    Create List    ${pdf}    ${screenshot}
     Add Files To Pdf    ${receipt_list}    ${pdf}
-    Close Pdf    ${pdf}
 
 
+Go to order another robot
+    Wait Until Element Is Visible    css:button#order-another
+    Click Button    css:button#order-another
+
+
+Create a ZIP file of the receipts
+    Archive Folder With Zip    ${OUTPUT_DIR}${/}data    ${OUTPUT_DIR}${/}data.zip
 
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc
@@ -89,7 +96,7 @@ Order robots from RobotSpareBin Industries Inc
         ${pdf}=    Store the receipt as a PDF file    ${row}[Order number]
         ${screenshot}=    Take a screenshot of the robot    ${row}[Order number]
         Embed the robot screenshot to the receipt PDF file    ${screenshot}    ${pdf}
-    #     Go to order another robot
+        Go to order another robot
     END
-    # Create a ZIP file of the receipts
+    Create a ZIP file of the receipts
 
