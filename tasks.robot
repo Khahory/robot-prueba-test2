@@ -10,6 +10,10 @@ Library    RPA.HTTP
 Library    RPA.Tables
 Library    RPA.PDF
 
+*** Variables ***
+${GLOBAL_RETRY_AMOUNT}=         10x
+${GLOBAL_RETRY_INTERVAL}=       1s
+
 *** Keywords ***
 Open the robot order website
     Open Available Browser    https://robotsparebinindustries.com/#/robot-order
@@ -39,18 +43,21 @@ Preview the robot
 
     
 Submit the order
-    Click Button    Order
-    Wait Until Keyword Succeeds    30    0.5    Submit the order
-        Wait Until Element Is Not Visible    alert alert-danger
+    Click Button    id:order
+    # si id:receipt es visible, dejaras de esperar
+    Wait Until Element Is Visible    id:receipt
 
 
 Store the receipt as a PDF file
     [Arguments]    ${Order number}
+    Wait Until Element Is Visible    id:receipt
     ${receipt_result_html}=        Get Element Attribute    id:receipt    outerHTML
     Html To Pdf    ${receipt_result_html}    ${OUTPUT_DIR}${/}${Order number}-receipt.pdf
-    [Return]    ${Order number}
+    [Return]    ${OUTPUT_DIR}${/}${Order number}-receipt.pdf
         
 
+Retry submitting order
+    Wait Until Keyword Succeeds   5x    1s    Submit the order
 
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc
@@ -60,7 +67,7 @@ Order robots from RobotSpareBin Industries Inc
         Close the annoying modal
         Fill the form    ${row}
         Preview the robot
-        Submit the order
+        Retry submitting order
         ${pdf}=    Store the receipt as a PDF file    ${row}[Order number]
     #     ${screenshot}=    Take a screenshot of the robot    ${row}[Order number]
     #     Embed the robot screenshot to the receipt PDF file    ${screenshot}    ${pdf}
