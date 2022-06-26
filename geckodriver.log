@@ -938,3 +938,204 @@ TimedPromise@chrome://remote/content/marionette/sync.js:220:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1656248801614	Marionette	INFO	Stopped listening on port 56274
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1656249843978	geckodriver	INFO	Listening on 127.0.0.1:53052
+1656249847060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce436\\rust_mozprofilecI5Wig"
+1656249847482	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce436\\rust_mozprofilecI5Wig\\search.json.mozlz4", (void 0)))
+1656249849928	Marionette	INFO	Listening on port 53060
+1656249850258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+1656250135402	Marionette	INFO	Stopped listening on port 53060
+[Parent 2800, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+1656250146849	geckodriver	INFO	Listening on 127.0.0.1:53170
+1656250149902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce4b2\\rust_mozprofile4y1Z8f"
+1656250150263	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce4b2\\rust_mozprofile4y1Z8f\\search.json.mozlz4", (void 0)))
+1656250152470	Marionette	INFO	Listening on port 53178
+1656250152589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+1656250257186	Marionette	INFO	Stopped listening on port 53178
+1656251545466	geckodriver	INFO	Listening on 127.0.0.1:53715
+1656251548502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce39a\\rust_mozprofileXv2oKF"
+1656251548877	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce39a\\rust_mozprofileXv2oKF\\search.json.mozlz4", (void 0)))
+1656251551118	Marionette	INFO	Listening on port 53723
+1656251551157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1656251568727	Marionette	INFO	Stopped listening on port 53723
+1656251798925	geckodriver	INFO	Listening on 127.0.0.1:53838
+1656251801968	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce392\\rust_mozprofile8hqVuf"
+1656251802393	Marionette	INFO	Marionette enabled
+JavaScript error: chrome://browser/content/tabbrowser.js, line 5318: TypeError: this.PictureInPicture is undefined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fce392\\rust_mozprofile8hqVuf\\search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4103: Error: Area not yet restored
+JavaScript error: chrome://browser/content/tabbrowser.js, line 5318: TypeError: this.PictureInPicture is undefined
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+1656251926837	geckodriver	INFO	Listening on 127.0.0.1:53955
+1656251929884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc0fe\\rust_mozprofilefx6N16"
+1656251930281	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at c:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcc0fe\\rust_mozprofilefx6N16\\search.json.mozlz4", (void 0)))
+1656251932537	Marionette	INFO	Listening on port 53964
+1656252326109	geckodriver	INFO	Listening on 127.0.0.1:54072
+1656252329200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcf702\\rust_mozprofileNmvtzd"
+1656252329576	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kha\\AppData\\Local\\robocorp\\temp\\4d65822107fcf702\\rust_mozprofileNmvtzd\\search.json.mozlz4", (void 0)))
+1656252331918	Marionette	INFO	Listening on port 54080
+1656252332401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://robotsparebinindustries.com"
+1656252411219	Marionette	INFO	Stopped listening on port 54080
+[Parent 16008, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

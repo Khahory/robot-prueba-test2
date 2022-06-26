@@ -11,6 +11,7 @@ Library    RPA.Tables
 Library    RPA.PDF
 Library    RPA.Archive
 Library    RPA.Dialogs
+Library    RPA.Robocorp.Vault
 
 *** Variables ***
 ${GLOBAL_RETRY_AMOUNT}=         10x
@@ -25,6 +26,11 @@ Get orders
     Add heading    Send URL orders
     Add text input    url    label=URL CSV
     ${result}=    Run dialog
+
+    # rcc run -e devdata/env.json
+    ${secret}=    Get Secret    secret_course2
+    Log To Console    ${secret}[url]
+
     Download    ${result.url}    overwrite=true
     ${orders}=    Read table from CSV    orders.csv
     [Return]    ${orders}
@@ -88,7 +94,6 @@ Go to order another robot
 Create a ZIP file of the receipts
     Archive Folder With Zip    ${OUTPUT_DIR}${/}data    ${OUTPUT_DIR}${/}data.zip
 
- 
 
 *** Tasks ***
 Order robots from RobotSpareBin Industries Inc
@@ -105,4 +110,5 @@ Order robots from RobotSpareBin Industries Inc
         Go to order another robot
     END
     Create a ZIP file of the receipts
+    [Teardown]    Close Browser
 
